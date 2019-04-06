@@ -1,0 +1,21 @@
+{
+    "name": "root/html",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "psr/http-message": "^1.0@dev",
+        "psr/log": "1.1.0",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "ext-curl": "*",
+        "ext-libxml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sender\\": "sender/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
